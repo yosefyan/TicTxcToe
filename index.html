@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js" type="module" defer></script>
+    <style>
+      .diss {
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden;
+        animation: goDown 55s linear 1;
+        transform: translateY(5vh);
+      }
+
+      @keyframes goDown {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(5vh);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="h-screen flex bg-gradient-to-br from-sky-950 to-yellow-900">
+      <div
+        class="w-[100vw] h-screen flex justify-center items-center flex flex-col">
+        <div
+          id="area"
+          class="diss grid grid-rows-3 grid-flow-col gap-4 table w-[55vw] h-[70vh]"></div>
+        <div
+          class="w-[55vw] h-[40vh] shadow-lg shadow-cyan-500/50 drop-shadow-2xl flex justify-evenly items-center flex-col gap-6 transition-all opacity-100 origin-bottom">
+          <h1 class="tracking-widest text-7xl text-gray-500 uppercase">Tic T<span class="text-cyan-700">x</span>c T<span class="text-orange-700">o</span>e</h1>
+          <div class="w-full flex justify-around" id="btnDiv"></div>
+        </div>
+      </div>
+      <div class="diss h-[60vh]">
+        <div class="w-[20vw] flex flex-col">
+          <div
+          id="settings"
+          class="h-[40vh] shadow-lg shadow-cyan-500/50 drop-shadow-2xl flex justify-around items-center flex-col p-4">
+          <h3 class="text-center text-4xl text-white">&#9881; Settings</h3>
+        </div>
+          <div
+            class="h-[35vh] shadow-lg shadow-cyan-500/50 drop-shadow-2xl flex justify-center items-center flex-col gap-5">
+            <h1 class="text-4xl text-white">Next</h1>
+            <p
+              class="font-bold text-cyan-500 text-7xl drop-shadow-2xl"
+              id="shape">
+              X
+            </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

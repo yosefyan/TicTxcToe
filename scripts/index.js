@@ -18,12 +18,13 @@ const settings = selectElements("#settings");
 
 const theButtons = document.querySelectorAll(".buttons");
 theButtons.forEach((button) => {
-  button.addEventListener("click", () => {
-    if (button.textContent == "Restart Game") {
+  button.addEventListener("click", (e) => {
+    console.log(button);
+    if (e.target.textContent == "Restart Game") {
       cleanCells();
       restart();
     }
-    if (button.textContent == "Back Home") {
+    if (e.target.textContent == "Back Home") {
       changeClass([settings.parentElement, area], [btnDiv.parentElement]);
     }
   });

@@ -1,6 +1,6 @@
-# TicTacNeon - Neon Lights Decoration Game
+# TicTxcToe - Neon Lights Decoration Game
 
-TicTacNeon is not just a game; it's a visual spectacle! Play the classic Tic-Tac-Toe with a neon twist. Enjoy the vibrant neon lights decoration, go back home, and restart for endless entertainment.
+TicTxcToe is not just a game; it's a visual spectacle! Play the classic Tic-Tac-Toe with a neon twist. Enjoy the vibrant neon lights decoration, go back home, and restart for endless entertainment.
 
 ## Features
 

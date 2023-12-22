@@ -9,7 +9,7 @@ TicTxcToe is not just a game; it's a visual spectacle! Play the classic Tic-Tac-
 
 ## Getting Started
 
-1. Access TicTacNeon at [TicTxcToe](https://yosefyan.github.io/tictacneon).
+1. Access TicTacNeon at [TicTxcToe](https://yosefyan.github.io/TicTxcToe).
 
 2. Immerse yourself in the neon lights decoration during gameplay.
 
